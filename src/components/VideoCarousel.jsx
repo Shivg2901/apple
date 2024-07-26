@@ -108,7 +108,7 @@ const VideoCarousel = () => {
       const animUpdate = () => {
         anim.progress(
           videoRef.current[videoId].currentTime /
-            hightlightsSlides[videoId].videoDuration,
+            hightlightsSlides[videoId].videoDuration
         );
       };
 
@@ -241,7 +241,6 @@ const VideoCarousel = () => {
             }
           />
         </button>
-        ``
       </div>
     </>
   );
